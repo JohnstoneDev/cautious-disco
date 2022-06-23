@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  text-align : center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color :rgb(241, 245, 248);
+}
+
+.App{
+}
+
+.modal {
+  color : red;
+  font-weight : 500;
+}
+
+button, input{
+  border-radius : 5px;
+  padding : 0.5em;
+  border-style : none;
+}
+
+button {
+  background-color: black;
+  color : white;
+}
+
+button:hover{
+  color : black;
+  background-color : yellow;
+}
+
+.outer-section {
+  max-height : 80vh;
+  max-width : 100vw;
+}
+
+.grocery-list {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+
+}
+
+.grocery-item {
+  display: grid;
+  grid-template-columns: repeat(2,15%);
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  padding: .5em;
+}
+
+
+.main-display {
+  margin : 2em 2em 2em 2em;
+}
+
+.delete-all {
+  width : 50%;
+  padding: .5em;
+  margin : 0.5em 0.5em 0.5em 0.5em;
+  color: black;
+  background-color :rgb(241, 245, 248);
+}
+
+form {
+  padding : .5em;
+}
